@@ -2,7 +2,15 @@
 #use https://repl.it/languages/python3
 #to copy paste and run code
 
-import math
+
+import math 
+
+
+#constants
+c_ice = 2200 # J/kg*K
+c_water = 4187 # J/kg*K
+l_fusion_water = 333e3 # J/kg
+gas_constant = 8.31 #J/molK
 
 def exam2_num1() :
     α_w = 69e-6 #1/°C coefficient of linear expansion
