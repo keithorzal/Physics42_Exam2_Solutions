@@ -1,5 +1,5 @@
 #Alejandro Armas
-#use https://www.onlinegdb.com/online_python_compiler
+#use https://repl.it/languages/python3
 #to copy paste and run code
 
 import math
@@ -57,7 +57,7 @@ def exam2_num1() :
     
     print("Change in difference of height is: ", change_diff *1e2, "cm")
 
- k_cu = 401 # W/ m*K
+    k_cu = 401 # W/ m*K
     k_al = 237 # W/ m*K
     d = 0.86e-2 #meter
     l = 3.89e-2 #meter
