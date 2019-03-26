@@ -103,6 +103,45 @@ def exam2_num1() :
     
     print("The thermal conductivity of unknown material is ", k_z, "W/ m*K")
     
+def exam2_num2() : 
+    k_cu = 401 # W/ m*K
+    k_al = 237 # W/ m*K
+    d = 0.86e-2 #meter
+    l = 3.89e-2 #meter
+    t1 = 5 + 273.15
+    t2 = 81 + 273.15
+    Δz = 21 #C°
+    l_z = 0.86e-2 #meter
+
+
+    #*******
+    print ("Part (a")
+    #*******
+
+    Δcu = (t2 - t1 ) / (1 + k_cu/k_al)
+    Δal = k_cu/k_al * Δcu
+
+    print("The change in temperature across Copper = ", Δcu , "C°")
+    print("The change in temperature across Aluminum = ", Δal, "C°" )
+
+    #*******
+    print ("Part (b")
+    #*******
+
+    d_alum = (k_cu / k_al * d ** 2)** (1/2)
+
+    print("The diameter of the rod of aluminum to be at same ΔT ", d_alum, " meters")
+
+    #*******
+    print ("Part (c")
+    #*******
+
+    Δal = (t2 - t1 - Δz) / (1 + k_al/k_cu)
+    
+    k_z = (k_al * l_z* Δal)/ (Δz * l)
+    
+    print("The thermal conductivity of unknown material is ", k_z, "W/ m*K")
+        
 def exam2_num3() :
 
     def density_vs_altitude(height_meters) :
