@@ -299,5 +299,5 @@ def main() :
     ##call the function you wish to run
     ##change each numbers manually 
     
-    
+main()
 
