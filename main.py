@@ -1,4 +1,8 @@
 #Alejandro Armas
+#use https://www.onlinegdb.com/online_python_compiler
+#to copy paste and run code
+
+import math
 
 def exam2_num1() :
     α_w = 69e-6 #1/°C coefficient of linear expansion
